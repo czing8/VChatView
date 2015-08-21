@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>VRoundRectDemo.xcscheme</key>
+		<key>VChatView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F10F24561B25457900FCF039</key>
+		<key>F102C46E1B870BB500651EE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F10F246F1B25457900FCF039</key>
+		<key>F102C4871B870BB500651EE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

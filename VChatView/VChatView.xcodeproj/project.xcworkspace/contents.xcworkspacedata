@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VRoundRectDemo.xcodeproj">
+      location = "self:VChatView.xcodeproj">
    </FileRef>
 </Workspace>

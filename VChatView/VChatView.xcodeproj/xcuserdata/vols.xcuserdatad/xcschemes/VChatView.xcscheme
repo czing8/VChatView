@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F10F24561B25457900FCF039"
-               BuildableName = "VRoundRectDemo.app"
-               BlueprintName = "VRoundRectDemo"
-               ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+               BlueprintIdentifier = "F102C46E1B870BB500651EE8"
+               BuildableName = "VChatView.app"
+               BlueprintName = "VChatView"
+               ReferencedContainer = "container:VChatView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F10F246F1B25457900FCF039"
-               BuildableName = "VRoundRectDemoTests.xctest"
-               BlueprintName = "VRoundRectDemoTests"
-               ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+               BlueprintIdentifier = "F102C4871B870BB500651EE8"
+               BuildableName = "VChatViewTests.xctest"
+               BlueprintName = "VChatViewTests"
+               ReferencedContainer = "container:VChatView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F10F246F1B25457900FCF039"
-               BuildableName = "VRoundRectDemoTests.xctest"
-               BlueprintName = "VRoundRectDemoTests"
-               ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+               BlueprintIdentifier = "F102C4871B870BB500651EE8"
+               BuildableName = "VChatViewTests.xctest"
+               BlueprintName = "VChatViewTests"
+               ReferencedContainer = "container:VChatView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F10F24561B25457900FCF039"
-            BuildableName = "VRoundRectDemo.app"
-            BlueprintName = "VRoundRectDemo"
-            ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+            BlueprintIdentifier = "F102C46E1B870BB500651EE8"
+            BuildableName = "VChatView.app"
+            BlueprintName = "VChatView"
+            ReferencedContainer = "container:VChatView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F10F24561B25457900FCF039"
-            BuildableName = "VRoundRectDemo.app"
-            BlueprintName = "VRoundRectDemo"
-            ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+            BlueprintIdentifier = "F102C46E1B870BB500651EE8"
+            BuildableName = "VChatView.app"
+            BlueprintName = "VChatView"
+            ReferencedContainer = "container:VChatView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F10F24561B25457900FCF039"
-            BuildableName = "VRoundRectDemo.app"
-            BlueprintName = "VRoundRectDemo"
-            ReferencedContainer = "container:VRoundRectDemo.xcodeproj">
+            BlueprintIdentifier = "F102C46E1B870BB500651EE8"
+            BuildableName = "VChatView.app"
+            BlueprintName = "VChatView"
+            ReferencedContainer = "container:VChatView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

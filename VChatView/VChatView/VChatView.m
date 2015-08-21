@@ -1,12 +1,12 @@
 //
-//  VRoundRect.m
-//  VRoundRectDemo
+//  VChatView.m
+//  VChatView
 //
-//  Created by Vols on 15/6/8.
+//  Created by Vols on 15/8/21.
 //  Copyright (c) 2015年 Vols. All rights reserved.
 //
 
-#import "VRoundView.h"
+#import "VChatView.h"
 
 #define  kArrowHeight  8
 #define  kArrowCurvature 5
@@ -16,8 +16,8 @@
 
 #define kRGB(r, g, b)        [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 
-@implementation VRoundView
 
+@implementation VChatView
 
 - (void)setCurvature:(CGFloat)curvature{
     if (_curvature != curvature) {
@@ -46,7 +46,6 @@
     [popoverPath moveToPoint:CGPointMake(xMin, yMin+kMaxCurvature*_curvature)];    //左上角
     [popoverPath addQuadCurveToPoint:CGPointMake(xMin+kMaxCurvature*_curvature, yMin) controlPoint:CGPointMake(xMin, yMin)];
     
-    
     /********************向上的箭头**********************/
     [popoverPath addLineToPoint:CGPointMake(arrowPoint.x - kArrowHeight, yMin)];//left side
     [popoverPath addCurveToPoint:arrowPoint
@@ -60,10 +59,10 @@
     
     [popoverPath addLineToPoint:CGPointMake(xMax-kMaxCurvature*_curvature, yMin)];//右上角
     [popoverPath addQuadCurveToPoint:CGPointMake(xMax, yMin+kMaxCurvature*_curvature) controlPoint:CGPointMake(xMax, yMin)];
-
+    
     [popoverPath addLineToPoint:CGPointMake(xMax, yMax-kMaxCurvature*_curvature)];   //右下角
     [popoverPath addQuadCurveToPoint:CGPointMake(xMax - kMaxCurvature*_curvature, yMax) controlPoint:CGPointMake(xMax, yMax)];
-
+    
     [popoverPath addLineToPoint:CGPointMake(xMin+kMaxCurvature*_curvature, yMax)];//左下角
     [popoverPath addQuadCurveToPoint:CGPointMake(xMin, yMax - kMaxCurvature*_curvature) controlPoint:CGPointMake(xMin, yMax)];
     
@@ -74,6 +73,7 @@
     [popoverPath closePath];
     [popoverPath stroke];
 }
+
 
 
 @end

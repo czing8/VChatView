@@ -1,19 +1,19 @@
 //
-//  VRoundRectDemoTests.m
-//  VRoundRectDemoTests
+//  VChatViewTests.m
+//  VChatViewTests
 //
-//  Created by Vols on 15/6/8.
+//  Created by Vols on 15/8/21.
 //  Copyright (c) 2015年 Vols. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface VRoundRectDemoTests : XCTestCase
+@interface VChatViewTests : XCTestCase
 
 @end
 
-@implementation VRoundRectDemoTests
+@implementation VChatViewTests
 
 - (void)setUp {
     [super setUp];
